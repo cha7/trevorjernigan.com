@@ -4,7 +4,7 @@ A website...if one can call it that...
 
 ## Installation
 
-Requires node v16 and npm. After dependencies are installed:
+Requires npm. After dependencies are installed:
 
 ```bash
 npm i
