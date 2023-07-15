@@ -1,0 +1,67 @@
+.microseason {
+
+    animation: roto 1.5s infinite linear;
+    width: 500px;
+
+    @keyframes roto {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+}
+
+body {
+    @keyframes blinkingBackground {
+        0% {
+            background-color: #00fbff;
+        }
+        25% {
+            background-color: red;
+        }
+        50% {
+            background-color: yellow;
+        }
+        75% {
+            background-color: #00ff40;
+        }
+        100% {
+            background-color: #00fbff;
+        }
+    }
+
+    animation: blinkingBackground 3s infinite;
+    
+}
+
+h2 {
+    .goober {
+        width: 250px;
+        animation: goin 3s infinite linear;
+    }
+    @keyframes goin {
+        from {
+            transform: translateX(-1000px);
+        }
+        to {
+            transform: translateX(5000px);
+        }
+    }
+}
+
+.blinkytext {
+    font-family: comic sans ms;
+    font-size: 100px;
+    animation: blinkingText 0.05s infinite;
+}
+
+@keyframes blinkingText{
+    from {
+            color: white;
+        }
+        to {
+            color: black;
+        } 
+}
